@@ -1,0 +1,31 @@
+body{
+	margin: 0px;
+	background-color: skyblue;
+}
+	
+
+.left{float: left;       display:inline-block ; }
+
+
+
+
+.image_placeholder{
+	 
+	 width:289px;
+	 height:226px;
+	 border: 2px solid red;}
+
+.right{ display:block;  width: 420px;}
+
+nav{   float: right; background-color: chartreuse;
+    height: 140px;
+    padding: 0px;
+width: 70%;}
+
+
+
+ul{	
+	    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+}
