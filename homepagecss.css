@@ -1,12 +1,14 @@
 body{
-	margin: 0px;
-	background-color: skyblue;
-}
+	margin: 0px; background-size: cover;  height: 100vh; }
+
+
 	
 
-.left{float: left;       display:inline-block ; }
 
+.left{float: left;  
+    display:inline-block ;  }
 
+.logo{ width: 140px; top: 4%; left: 10%;}
 
 
 .image_placeholder{
