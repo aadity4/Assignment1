@@ -15,17 +15,17 @@ body{
 
 
 
-nav{   float: right; background-color: chartreuse;
+nav{   background-color: chartreuse;
     height: 50px;
     padding: 0px;
-width: 70%;}
+width: 100%; }
 
 
 
-ul{	
-	    display: flex; font-size: large;
+ul{	padding-top: 20px;
+	    display: flex; font-size: medium;
     justify-content: space-evenly;
-    padding: 0px;
+
 }
 a.over,a:hover{
 	background: whitesmoke;

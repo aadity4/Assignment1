@@ -23,3 +23,16 @@ margin-top: -28px;  width: 100%;
 height: 100px; background-color: chartreuse;
 }
 h1{padding-top: 20px;}
+
+#report{
+        border: solid;
+    margin: 60px;
+    height: 200vh;
+}
+footer{
+        BORDER: SOLID;
+    MARGIN: 50PX;
+    HEIGHT: 10VH;
+    TEXT-ALIGN: CENTER;
+}
+}
