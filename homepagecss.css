@@ -3,6 +3,7 @@ body{
 
 
 
+/*hamburger menu starts((the code for hamburger menu was taken from Kevin powell,link:https://codepen.io/kevinpowell/pen/jxppmr)*/
 
 header {
   background: chartreuse;
@@ -150,6 +151,7 @@ margin-top: 260px;}
     transform: scale(0, 1);
     transition: transform ease-in-out 250ms;
   }
+  /*hamburger-menu finishes(the code for hamburger menu was taken from Kevin powell,link:https://codepen.io/kevinpowell/pen/jxppmr */
 
 .left{padding: 36px;}
 h1{font-size: 30px;}

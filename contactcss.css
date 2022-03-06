@@ -108,10 +108,9 @@ h3{ font-size: 12px; margin-top: 8px;}
 
  input{width: 80px; height: 20px;border: solid black 1px;}   
  h2{font-size: 15px;}
-.gender{display: flex; width: 100px;}
-.logo{float: left; height: 10vh;  border: solid black 2px; margin-top: 360px;}    
+.gender{display: flex; width: 100px;}   
 
-#text{float: right;padding-top: 290px; width: 130px;font-size: 14px;}
+#text-contact{float: right;padding-top: 290px; width: 130px;font-size: 14px;}
 
 
 
@@ -128,7 +127,7 @@ h3{ font-size: 12px; margin-top: 8px;}
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
   
-  .logo {
+  .logo-contact {
     grid-column: 2 / 3;
   }
   
@@ -189,8 +188,7 @@ h3{ font-size: 33px; margin-top: 8px;}
 
  input{width: 300px; height: 20px;border: solid black 1px;}   
  h2{font-size: 15px;}
-.gender{display: flex; border: solid black 2px; width: 255px;}
-.logo{float: right; height: 30vh; width: 30%; border: solid black 2px;}    
+.gender{display: flex; border: solid black 2px; width: 255px;} 
 
-#text{float: right;padding-top: 200px; width: 0px;font-size: 20px;}
+#text-contact {float: right;padding-top: 200px; width: 300px;font-size: 20px;}
 

@@ -92,23 +92,23 @@ nav a:hover {
 
 
 
-.container{ 
+.containerport{ 
 	display: flex;flex-direction: row;
 }
 
-.left{
+.leftport{
 	width: 50%;height: 500px;background-color:skyblue;
 }
 
-.mid{
+.midport{
 	width: 50%;height: 500px;background-color: whitesmoke;
 }
 h3{padding-top: 150px;}
 .right{width: 50%;height: 500px;background-color: deepskyblue; }
 
-.box{display: flex; flex-direction: row;}
-.leftbox{width: 50%;height: 500px;background-color:whitesmoke;}
-.rightbox{width: 50%;height: 500px;background-color:lightskyblue; 
+.boxport{display: flex; flex-direction: row;}
+.leftboxport{width: 50%;height: 500px;background-color:whitesmoke;}
+.rightboxport{width: 50%;height: 500px;background-color:lightskyblue; 
 
 }
 img{margin: 10px;}
