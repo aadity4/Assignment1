@@ -1,0 +1,325 @@
+body{
+  margin: 0px; background-size: cover;  height: 170vh; }
+
+
+
+/*hamburger menu starts((the code for hamburger menu was taken from Kevin powell,link:https://codepen.io/kevinpowell/pen/jxppmr)*/
+
+header {
+  background: chartreuse;
+  text-align: center;
+  z-index: 999;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.hamburger {
+ display:none;
+  top: -9999px 
+  left: -9999px 
+}
+
+
+.hamburger-label {
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-label span,
+.hamburger-label span::before,
+.hamburger-label span::after {
+  display: block;
+  background: white;
+  height: 6px;
+  width: 25px;
+  border-radius: 1px;
+  margin-top: -17px;
+  
+}
+
+.hamburger-label span::before,
+.hamburger-label span::after {
+  content: ''; 
+}
+
+.hamburger-label span::before {
+  bottom: 8px;
+}
+
+.hamburger-label span::after {
+  top: 8px;
+}
+
+nav {
+  text-align:left;
+  top: 100%;
+  width: 100%;
+  transition: transform 400ms;
+}
+
+nav ul {
+  list-style: none;
+}
+
+
+
+nav a {
+  color: darkred;
+  text-decoration: none;
+  font-size: 1.3rem;
+  opacity: 0;
+  
+}
+
+nav a:hover {
+  color: white;
+}
+
+.hamburger:checked ~ nav {
+  transform: scale(1,1);
+}
+
+.hamburger:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+
+.left{float: left;  
+    display:inline-block ;  }
+
+.logo{ width: 140px; top: 4%; left: 10%;}
+.welcome{text-align: center; font-size: 12px;}
+
+h1{font-size: 18px;
+margin-top: 260px;}
+}
+
+.join{ text-align: center; padding-top: 200px;}
+
+/*portfolio*/
+.portfolio{
+  margin-top: -250px;
+}
+.containerport{ 
+  display: flex;flex-direction: row;
+}
+
+.leftport{
+  width: 50%;height: 500px;background-color:skyblue;
+}
+
+.midport{
+  width: 50%;height: 500px;background-color: whitesmoke;
+}
+h3{padding-top: 150px;}
+.right{width: 50%;height: 500px;background-color: deepskyblue; }
+
+.boxport{display: flex; flex-direction: row;}
+.leftboxport{width: 50%;height: 500px;background-color:whitesmoke;}
+.rightboxport{width: 50%;height: 500px;background-color:lightskyblue; 
+
+}
+img{margin: 10px;}
+
+/*contact*/
+
+.contact{
+margin-top: -28px;  width: 100%;
+height: 100px;
+}
+h1{padding-top: 20px;}
+.container{ 
+    display: flex;flex-direction: row;
+}
+
+.form{
+    margin-right: 10px; border-width: 10px;
+        background-color: skyblue;
+    padding: 25px;
+    width: 300px;
+    border: solid;
+    height: 30vh;}
+
+h3{ font-size: 12px; margin-top: 8px;}    
+
+ input{width: 80px; height: 20px;border: solid black 1px;}   
+ h2{font-size: 15px;}
+.gender{display: flex; width: 100px;}   
+
+#text-contact{float: right;padding-top: 280px; width: 68px;font-size: 14px;}
+
+
+
+/*blog*/
+.blog{
+margin-top: -266px;  width: 100%;
+height: 100px;
+}
+h1{padding-top: 20px;}
+
+
+.body-blog{
+    margin-top: 30px;
+    display: grid;
+    height: 70vh;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    grid-template-columns:auto;
+    background-color: black;
+    padding: 20px;
+}
+.item{ 
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+.text-blog{
+font-size: 20px;
+text-align: center;
+margin-top: 10px;
+}
+/*report*/
+ #report-content{
+padding: 15px;
+margin: 20px;
+height: 130vh;
+  }
+  footer{
+    text-align: center; margin-top: 1085px;
+  }
+
+
+@media screen and (min-width: 800px) {
+  .hamburger-label {
+    display: none;
+  }
+
+  header { margin-top: 1px;
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+  }
+  
+  .logo {
+    grid-column: 2 / 3;
+  }
+  
+  nav {
+     all: unset; 
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 4em;
+    margin-bottom: 1;
+  }
+  
+  nav a {
+    opacity: 2;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: hotpink;
+    
+    top: -.80em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
+  /*hamburger-menu finishes(the code for hamburger menu was taken from Kevin powell,link:https://codepen.io/kevinpowell/pen/jxppmr */
+
+/*homepage*/
+
+.left{padding: 36px;}
+h1{font-size: 30px;}
+  .join{flex-direction: column; width: 96%; order: 2;}
+}
+.welcome{font-size: 16px;}
+
+}
+/*blog*/
+.blog{ 
+margin-top: -28px;  width: 100%;
+height: 100px;
+}
+h1{padding-top: 20px;}
+
+
+.body-blog{ 
+    margin-top: 30px;
+    display: grid;
+    height: 70vh;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto ;
+    background-color: black;
+    padding: 20px;
+}
+.item{ 
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+.text-blog{
+font-size: 20px;
+text-align: left;
+margin-top: 10px;
+}
+
+/*report*/
+
+ #report-content{
+padding: 15px;
+margin: 20px;
+height: 75vh;
+  }
+  footer{
+    text-align: center; margin-top: 1258px;
+  }
+
+.contact{
+margin-top: -28px;  width: 100%;
+height: 100px;
+}
+h1{padding-top: 20px;}
+.container{ 
+    display: flex;flex-direction: row;
+}
+
+.form{
+    margin-right: 10px; border-width: 10px;
+        background-color: skyblue;
+    padding: 25px;
+    width: 600px;
+    border: solid;
+    height: 70vh;}
+
+h3{ font-size: 33px; margin-top: 8px;}    
+
+ input{width: 300px; height: 20px;border: solid black 1px;}   
+ h2{font-size: 15px;}
+.gender{display: flex; border: solid black 2px; width: 255px;} 
+
+#text-contact {float: right;padding-top: 200px; width: 300px;font-size: 20px;}
+
+.references{
+border: solid;
+padding: 30px;
+margin: 30px;
+}
